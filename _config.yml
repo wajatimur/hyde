@@ -30,3 +30,4 @@ plugins:
   - redcarpet   
   - jekyll-gist   
   - pygments.rb
+  - wdm
