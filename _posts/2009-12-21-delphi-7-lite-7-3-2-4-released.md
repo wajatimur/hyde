@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Delphi 7 Lite 7.3.2.4 Released
+date: 2009-12-21 00:00:00 Z
+published: false
 categories:
 - delphi
 tags:
@@ -9,11 +10,12 @@ tags:
 - pascal
 - repack
 - v7-3-2-4
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 Delphi 7 Lite 7.3.2.4 (build 01.03.2009) Delphi 7 is the programming environment enables the rapid creation of powerful applications and windowing console for Microsoft Windows 98, 2000, 2003, XP, Vista. Deployed language is Object Pascal.
 
 This product contains dozens of ready-to-use components greatly facilitate the writing of programs in Windows. In addition, Delphi 7, you can create and install their own components.

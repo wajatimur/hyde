@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Basic Service Need to Run on Windows XP ...
+date: 2009-07-24 00:00:00 Z
 categories:
 - general
 tags:
@@ -8,11 +8,12 @@ tags:
 - tune
 - windows
 - xp
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 Basic Service Need to Run on Windows XP
 
 COM+  

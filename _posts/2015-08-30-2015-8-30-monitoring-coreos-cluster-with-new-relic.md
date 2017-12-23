@@ -1,17 +1,18 @@
 ---
-layout: post
 title: Monitoring CoreOS Cluster With New Relic
-categories: []
+date: 2015-08-30 00:00:00 Z
+published: false
 tags:
 - coreos
 - docker
 - cluster
 - newrelic
 - monitoring
+layout: post
 status: draft
 type: post
-published: false
 meta: {}
 ---
+
 https://github.com/johanneswuerbach/newrelic-sysmond-service
 

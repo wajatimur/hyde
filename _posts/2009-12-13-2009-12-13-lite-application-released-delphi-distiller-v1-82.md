@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Lite Application Released Delphi Distiller v1.82
+date: 2009-12-13 00:00:00 Z
 categories:
 - delphi
 tags:
@@ -11,12 +11,13 @@ tags:
 - Distiller
 - lite
 - secret
+layout: post
 status: publish
 type: post
-published: true
 meta:
   structured_content: '{"oembed":{},"overlay":true}'
 ---
+
  **Whats New!**
 
 - Automatically select page for currently installed Delphi version (this feature was present in previous versions but disappeared in v1.80 by mistake).

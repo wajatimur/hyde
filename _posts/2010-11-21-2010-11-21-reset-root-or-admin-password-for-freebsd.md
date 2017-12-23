@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Reset Root Or Admin Password For FreeBSD
-categories: []
+date: 2010-11-21 00:00:00 Z
 tags:
 - admin
 - freebsd
@@ -9,11 +8,12 @@ tags:
 - reset
 - root
 - bsd
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 BSD operating system is secured by default. It have a very good reputation of being the most secured Unix based OS compared to its sibling Linux OS.
 
 As server administartor I have several experience whereby i can't remember my login password. Sometime it might happen when we typed a different character unconciously while setting it first time, really??

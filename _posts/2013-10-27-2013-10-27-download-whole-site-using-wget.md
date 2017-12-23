@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Download Whole Site Using WGET
+date: 2013-10-27 00:00:00 Z
 categories:
 - linux
 tags:
@@ -15,11 +15,12 @@ tags:
 - wget
 - recursive
 - crawler
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 The WGet is a C base program to retrieve a web contents where it popularly used on OS platform such as Linux and others. It's part of GNU and distributed under GNU General Public License. It has a very robust feature including recursive web page download like a crawler. By using a proper program arguments we can download a whole site by using the following command.
 
 ```

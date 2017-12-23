@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Remove ^M Characters At End Of Lines In vi
+date: 2009-12-13 00:00:00 Z
 categories:
 - linux
 tags:
@@ -8,12 +8,13 @@ tags:
 - linux
 - vi
 - "^M"
+layout: post
 status: publish
 type: post
-published: true
 meta:
   structured_content: '{"oembed":{},"overlay":true}'
 ---
+
 Sometime when converting text file from Windows to Linux will introduce unintended `^M` character for each of line.
 
 ```

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Delphi 2009 v12.0.3420.21218 (Update 3+4) Full Activation
+date: 2009-07-13 00:00:00 Z
 categories:
 - delphi
 tags:
@@ -16,11 +16,12 @@ tags:
 - slip
 - update
 - version
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 The latest delphi update 3 introduced a new method of anti-piracy which isthe digitally signed binaries, The most important one is sanctuarylib.dll, which is responsible for validating registration slip files. All of you who had problems after update 3 must have been using cracked sanctuarylib.dll, The update 3 doesn't alter or update this dll, but, as said, bds.exe checks for a digital signature for this dll, if not found then raise AV. Those who did not used a cracked sanctuarylib.dll + slip files must have updated succsefully, that is, anyone who used just a keygen + Distiller had no problems applying update 3. So you need an original digitally signed and latest version of sanctuarylib.dll, Distiller and a keygen (only required when installing delphi),
 
 > [Download : MediaFire](http://www.mediafire.com/download.php?zjzmle3gymw)

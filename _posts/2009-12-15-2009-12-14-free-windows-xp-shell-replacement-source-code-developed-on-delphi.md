@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Free Windows XP Shell Replacement Source Code Developed On Delphi
+date: 2009-12-15 00:00:00 Z
 categories:
 - delphi
 tags:
@@ -11,11 +11,12 @@ tags:
 - shell
 - vcl
 - windows xp
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
  **SharpE** is an open source shell replacement for Microsoft Windows 2000 and up, released under the GNU General Public License (GPL).
 
 SharpE is now known as **SharpEnviro** starting from 2008. Currently designed to compile on Borland Delphi 2005, and targets Windows 2000 or higher. It makes heavy use of the JCL, JVCL, and Graphics32 libraries for Delphi.

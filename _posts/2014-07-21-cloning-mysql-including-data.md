@@ -1,17 +1,18 @@
 ---
-layout: post
 title: Cloning MySQL Including Data
+date: 2014-07-21 00:00:00 Z
 categories:
 - rdbms
 tags:
 - mysql
 - maintenance
 - clone
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Sometime we might required to create a clone of existing MySQL table for maintenance purpose or testing an experimental query. We only need 2 query to do this.
 
 ```

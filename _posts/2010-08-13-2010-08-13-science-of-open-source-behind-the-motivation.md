@@ -1,7 +1,6 @@
 ---
-layout: post
 title: 'Science of Open Source : Behind The Motivation'
-categories: []
+date: 2010-08-13 00:00:00 Z
 tags:
 - linux
 - motivation
@@ -10,9 +9,9 @@ tags:
 - opensource
 - salary
 - source
+layout: post
 status: publish
 type: post
-published: true
 meta:
   structured_content: '{"oembed":{},"overlay":true}'
 ---

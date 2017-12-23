@@ -1,34 +1,32 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
+---
+title: SAC
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+markdown: redcarpet
+highlighter: pygments
+permalink: pretty
 relative_permalinks: false
-
-# Setup
-title:            SAC
-tagline:          'StandAloneComplex'
-description:      'Visible Non Abstract'
-url:              https://wajatimur.github.io
-baseurl:          /
-
+tagline: StandAloneComplex
+description: Visible Non Abstract
+url: https://wajatimur.github.io
+baseurl: "/"
 author:
-  name:           'Azri Jamil'
-  url:            https://twitter.com/azrijamil
-
-paginate:         5
-paginate_path:    "/:num/"
-
-# Custom vars
-version:          3.0.0
-
+  name: Azri Jamil
+  url: https://twitter.com/azrijamil
+paginate: 5
+paginate_path: "/:num/"
+version: 3.0.0
 github:
-  repo:           https://github.com/wajatimur
-
-plugins:   
-  - jekyll-paginate   
-  - redcarpet   
-  - jekyll-gist   
-  - pygments.rb
-  - wdm
+  repo: https://github.com/wajatimur
+plugins:
+- jekyll-paginate
+- redcarpet
+- jekyll-gist
+- pygments.rb
+- wdm

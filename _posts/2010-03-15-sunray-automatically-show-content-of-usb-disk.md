@@ -1,17 +1,19 @@
 ---
-layout: post
 title: Sunray - Automatically show content of USB disk
+date: 2010-03-15 00:00:00 Z
+published: false
 categories:
 - linux
 tags:
 - automatically
 - sunray
 - usb disk
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 utdiskadm/utstoraged/utmountd/etc automatically handle the creation ofdevice files during insertion and mounting of USB mass storage devices, but the mount point is in /tmp/SUNWut/mnt/$USER, which isn't obvious for the average user.I wrote a wrapper around /opt/SUNWut/lib/utdomount to create an icon to on a users GNOME desktop after USB insertion and delete the Icon after USB removal. Additionally, a symbolic link is created/removed in the users home directory to make accessing the USB storage from applications easier.
 
 cp /opt/SUNWut/lib/utdomount /opt/SUNWut/lib/utdomount.original

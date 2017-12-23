@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Simplify boot2docker Configuration on OSX
+date: 2015-01-28 00:00:00 Z
 categories:
 - devop
 tags:
@@ -10,11 +10,12 @@ tags:
 - docker-enter
 - osx
 - shortcut
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 After installing Boot2Docker using installer tools, run below post installation command.
 
 ```

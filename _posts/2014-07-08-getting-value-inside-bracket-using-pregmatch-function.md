@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Getting Value Inside Bracket Using preg_match Function
+date: 2014-07-08 00:00:00 Z
 categories:
 - coding
 - php
@@ -8,11 +8,12 @@ tags:
 - bracket
 - preg_match
 - regex
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 First we need to compose and declare some pattern.
 
 ```

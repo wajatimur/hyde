@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Code Migration to Delphi 2009
+date: 2009-08-07 00:00:00 Z
 categories:
 - delphi
 tags:
@@ -9,11 +9,12 @@ tags:
 - delphi
 - migration
 - source
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Delphi 2009 \<\> Delphi 2007 (any old version) is `STRING type:` In Delphi2009 (12)
 
 ```

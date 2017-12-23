@@ -1,6 +1,6 @@
 ---
-layout: post
 title: New Release Of IDE Fix Pack For Delphi 2009/2010
+date: 2009-12-16 00:00:00 Z
 categories:
 - delphi
 tags:
@@ -9,12 +9,13 @@ tags:
 - delphi 2010
 - fixpack
 - ide
+layout: post
 status: publish
 type: post
-published: true
 meta:
   structured_content: '{"oembed":{},"overlay":true}'
 ---
+
 The IDE Fix Pack 2009/2010 installs is a DLL-Expert that fixes the following Delphi/C++Builder 2009/2010 bugs at runtime. All changes are done in memory. No file on disk is modified. None of your projects are modified or benefit from the IDE Fix Pack. RAD Studio 2010 fixes:
 
 - Undo destroys editor buffer

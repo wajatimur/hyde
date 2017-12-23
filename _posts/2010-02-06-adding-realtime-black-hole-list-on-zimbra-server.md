@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Adding Realtime Black-hole List on Zimbra Server
+date: 2010-02-06 00:00:00 Z
+published: false
 categories:
 - linux
 tags:
@@ -8,11 +9,12 @@ tags:
 - rbl
 - spam
 - zimbra
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 RBL (Real time black-hole lists) can be turned on or off in SpamAssassin from the Zimbra CLI. The three RBL’s that are enabled during installation are the following: • reject\_invalid\_hostname • reject\_non\_fqdn\_hostname • reject\_non\_fqdn\_sender
 
 You can set the following, in addition to the three above: • reject\_rbl\_client dnsbl.njabl.org • reject\_rbl\_client cbl.abuseat.org • reject\_rbl\_client bl.spamcop.net • reject\_rbl\_client dnsbl.sorbs.net • reject\_rbl\_client sbl.spamhaus.org • reject\_rbl\_client relays.mail-abuse.org

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Drawing on TPanel Canvas by Exposing Protected Method
+date: 2009-08-07 00:00:00 Z
 categories:
 - delphi
 tags:
@@ -8,11 +8,12 @@ tags:
 - delphi
 - drawing
 - tpanel
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 1. Create a descendant class.type
 
 ```

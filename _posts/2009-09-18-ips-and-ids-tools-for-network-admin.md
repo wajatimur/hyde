@@ -1,6 +1,6 @@
 ---
-layout: post
 title: IPS and IDS Tools for Network Admin
+date: 2009-09-18 00:00:00 Z
 categories:
 - linux
 tags:
@@ -10,11 +10,12 @@ tags:
 - ids
 - ips
 - threat
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 1. 
 
 [Snort IPS](http://www.snort.org) is an open source network intrusion prevention and detection system (IDS/IPS) developed by Sourcefire. Combining the benefits of signature, protocol and anomaly-based inspection, Snort is the most widely deployed IDS/IPS technology worldwide. With millions of downloads and over 250,000 registered users, Snort has become the de facto standard for IPS.

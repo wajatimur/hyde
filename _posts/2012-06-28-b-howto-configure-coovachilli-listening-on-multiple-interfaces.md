@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Howto Configure CoovaChilli Listening On Multiple Interfaces
+date: 2012-06-28 00:00:00 Z
 categories:
 - linux
 tags:
@@ -10,12 +10,13 @@ tags:
 - wireless
 - wifi
 - linux
+layout: post
 status: publish
 type: post
-published: true
 meta:
   structured_content: '{"oembed":{},"overlay":true}'
 ---
+
 Creat a VLAN interface using `ifcfg-vlan` filename with following content. The value of `IPADDR` and `NETWORK` must be reflect your current VLAN setup.
 
 ```

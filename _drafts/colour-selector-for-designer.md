@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Colour Selector For Designer
-categories: []
+date: 2009-01-14 00:00:00 Z
 tags:
 - Color
 - colour
@@ -11,11 +10,12 @@ tags:
 - situation
 - Studio
 - title
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 ## ColorSchemer Studio
  ![Color Scheme Studio](http://standalonex.com/wp-content/uploads/2009/01/colourschemer1.jpg "Color Scheme Studio")
 

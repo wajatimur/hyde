@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Add Boot2Docker Port Forward on Localhost
+date: 2015-01-28 00:00:00 Z
 categories:
 - devop
 tags:
@@ -13,11 +13,12 @@ tags:
 - port
 - port forwarding
 - virtual box
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 To have you boot2docker running container service accessible on your "localhost" or host computer, following command can be use. The command line specifically modify the boot2docker virtual machine, to add the port forward configuration to the NAT interface.
 
 ```

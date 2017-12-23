@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 5 Best and Free Desktop Based Blog Editor
+date: 2009-01-16 00:00:00 Z
 categories:
 - software
 tags:
@@ -9,11 +9,12 @@ tags:
 - offline
 - software
 - tool
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 Experiencing slow loading on blog editor due to lag on internet speed. Now its time to use offline or desktop based blog editor. Listed is top 5 free desktop based blog editor ready to serve! 1. [Qumana Blog Editor](http://www.qumana.com/overview.htm) - Easy to used desktop blog editor, available in major language and support Mac or Windows.
 
  ![](http://farm3.static.flickr.com/2315/1797888477_fa722821ce_o.jpg)

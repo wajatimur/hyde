@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Simple DNS Server and Caching for Centos Using dnsmasq
+date: 2009-08-03 00:00:00 Z
 categories:
 - linux
 tags:
@@ -12,11 +12,12 @@ tags:
 - dhcp
 - forwarder
 - local
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 _dnsmasq_ is a very light DNS forwarder and capable of serving as DHCP server. It's also can be configure as a simple DNS server with a caching capability.
 
 On Centos distro, the _dnsmasq_ package can be install using following command, this step is compulsary.

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Usefull Centos Command Line for Die Hard System Administrator
+date: 2009-08-03 00:00:00 Z
 categories:
 - linux
 tags:
@@ -9,11 +9,12 @@ tags:
 - linux
 - power
 - system
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Find disk usage by partition in a human readable format.
 
 ```

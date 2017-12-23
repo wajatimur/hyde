@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Howto Solve LDAP Error in Creating Account
+date: 2010-01-10 00:00:00 Z
+published: false
 categories:
 - linux
 tags:
@@ -8,11 +9,12 @@ tags:
 - object class
 - uidnumber
 - zimbra
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 Check object class first :
 
 > zmprov gacf | grep ObjectClass zimbraAccountExtraObjectClass: amavisAccount zimbraAccountExtraObjectClass: posixAccount zimbraAccountExtraObjectClass: sambaSamAccount zimbraAccountExtraObjectClass: sambaAccount

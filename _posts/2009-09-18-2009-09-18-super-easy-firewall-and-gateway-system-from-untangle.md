@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Super Easy Firewall and Gateway System from Untangle
+date: 2009-09-18 00:00:00 Z
 categories:
 - linux
 tags:
@@ -9,12 +9,13 @@ tags:
 - ids
 - ips
 - router
+layout: post
 status: publish
 type: post
-published: true
 meta:
   structured_content: '{"oembed":{},"overlay":true}'
 ---
+
 Untangle delivers an integrated family of applications that simplify and consolidate the network and security products that businesses need at the network gateway. All Untangle apps are:
 
 - Pre-configured to work right away

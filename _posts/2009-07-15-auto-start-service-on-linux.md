@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Auto Start Service on Linux
+date: 2009-07-15 00:00:00 Z
 categories:
 - linux
 tags:
@@ -10,11 +10,12 @@ tags:
 - redhat
 - debian
 - services
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Redhat base distro for auto service start-up.
 
 ```

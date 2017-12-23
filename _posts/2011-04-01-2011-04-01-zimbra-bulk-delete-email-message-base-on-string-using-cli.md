@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Zimbra Bulk Delete Email Message Base on String Using CLI
+date: 2011-04-01 00:00:00 Z
 categories:
 - linux
 tags:
@@ -8,11 +8,12 @@ tags:
 - mailbox
 - message
 - zimbra
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Generate file list of message to be delete.
 
 ```

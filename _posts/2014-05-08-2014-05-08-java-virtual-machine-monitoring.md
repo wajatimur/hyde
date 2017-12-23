@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Java Virtual Machine Monitoring
+date: 2014-05-08 00:00:00 Z
 categories:
 - coding
 - java
@@ -11,12 +11,13 @@ tags:
 - jmx
 - jvm
 - monitoring
+layout: post
 status: publish
 type: post
-published: true
 meta:
   structured_content: '{"oembed":{},"overlay":true}'
 ---
+
 Programming and deploying application in Java Application Container require an extensive knowledge in managing and monitoring the JVM (Java Virtual Machine). Below is a few of the great resource to start with.
 
 [Using JConsole](http://download.oracle.com/javase/6/docs/technotes/guides/management/jconsole.html)

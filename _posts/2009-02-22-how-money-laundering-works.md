@@ -1,6 +1,6 @@
 ---
-layout: post
 title: How Money Laundering Works
+date: 2009-02-22 00:00:00 Z
 categories:
 - general
 tags:
@@ -9,11 +9,12 @@ tags:
 - dirty money
 - money laundering
 - crime
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Money laundering, at its simplest, is the act of making money that comes from Source A look like it comes from Source B. In practice, criminals are trying to disguise the origins of money obtained through illegal activities so it looks like it was obtained from legal sources. Otherwise, they can’t use the money because it would connect them to the criminal activity, and law-enforcement officials would seize it. Money laundering accomplishes this in three steps: (1) getting the money into the financial system, called "placing," (2) moving it around to hide the illegal taint, or "layering," and (3) commingling it with legitimate funds, known as "integrating."
 
 ![money-laundering](/squarespace_images/static_55ce1b6ce4b0ad0fe783390e_55ce2083e4b0bde142c1ffb2_55ce2083e4b0bde142c1ffc3_1439572170579_money-laundering.jpg_ "money-laundering")

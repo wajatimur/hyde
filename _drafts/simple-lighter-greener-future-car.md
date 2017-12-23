@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Simple, Lighter & Greener Future Car
-categories: []
+date: 2009-01-14 00:00:00 Z
 tags:
 - car
 - economy
@@ -24,11 +23,12 @@ tags:
 - steel
 - structure
 - US
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
  ![Loremo](http://standalonex.com/wp-content/uploads/2009/01/loremofrontpage_m1.jpg "Loremo")
 ## The other way round
 

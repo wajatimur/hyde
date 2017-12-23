@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Cool Text Effect For Flash Designer
+date: 2009-01-05 00:00:00 Z
 categories:
 - flash
 tags:
@@ -8,11 +8,12 @@ tags:
 - effect
 - flash
 - text
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 TxEff2 is a Flash CS3/CS4 component (by JumpeyeComponents) created for easing the text animation process. TxEff2 is also a framework based on patterns, a large collection of classes, which enable cool show/hide and swap transitions on texts. The main advantages of using the FlashEff engine, FlashEff panel and working with FlashEff patterns are compatibility, performance and high quality at a great price. Also, you can use FlashEff gallery to browse, save and find presets as well as FlashEff forum to find related issues.
 
 ### TxEff2 features

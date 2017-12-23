@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Upgrading CoreOS With Deis Onboard
+date: 2015-09-20 00:00:00 Z
 categories:
 - devop
 tags:
@@ -11,11 +11,12 @@ tags:
 - cluster
 - cloud
 - server provisioning
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Deis have disable the auto update facility in CoreOS by default due to specific technical reason.
 
 To update to the latest release of CoreOS we must trigger the update manually using following command.

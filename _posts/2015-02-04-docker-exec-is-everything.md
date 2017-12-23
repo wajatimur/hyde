@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Docker Exec Is Your Boss
+date: 2015-02-04 00:00:00 Z
 categories:
 - devop
 tags:
@@ -8,11 +8,12 @@ tags:
 - docker-enter
 - nsenter
 - terminal
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Version 1.3 of Docker have introduced a long awaited feature which is `docker exec` that allowed user to interact with the process inside the container.
 
 ```

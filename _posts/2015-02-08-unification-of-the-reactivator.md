@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Unification of The "Reactivator"
+date: 2015-02-08 00:00:00 Z
 categories:
 - coding
 tags:
@@ -9,11 +9,12 @@ tags:
 - c#
 - rxjava
 - rxjs
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 For last few year, i started to implemented the reactive programming into few of my projects with a different flavor like C#, ObjC, Swift and Java. From my experience in implementing the RP, its feel like filling the hole in your chest that already been there since the ancient beginning of the computer programming. There's a thousand way that you can describe on the need to go reactive and why we need to embrace it.
 
 Learning RP is a steep curve, and adoption speed is different for every language. I find that RP in Javascript(RxJS) & Java(RxJava) is easier to understand, especially if you came from Async programming background such NodeJS or Promise user in JS. But by having that, you will still lack of the basic fundamental behind this technology, because it's more than the code itself, it have a different level of metaphor and perspective in understanding the working principle of RP. It will change you inner monster Imperative Behavior programming, everything will look awkward on the early stage on how you see the data flowing and branching, though it's fun.

@@ -1,17 +1,18 @@
 ---
-layout: post
 title: Getting Information on Running Port
+date: 2009-12-10 00:00:00 Z
 categories:
 - linux
 tags:
 - linux
 - ports
 - security
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 The following command issued from the console determines which ports are listening for TCP connections from the network:
 
 ```

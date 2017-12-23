@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Recursively chmod directories of files only
+date: 2009-11-26 00:00:00 Z
 categories:
 - linux
 tags:
@@ -15,11 +15,12 @@ tags:
 - ubuntu
 - redhat
 - centos
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 ```
 find . -type d -exec chmod 755 {} \;
 ```

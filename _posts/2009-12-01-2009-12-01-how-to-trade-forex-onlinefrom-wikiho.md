@@ -1,17 +1,18 @@
 ---
-layout: post
 title: How to Trade Forex Online
+date: 2009-12-01 00:00:00 Z
 categories:
 - money
 tags:
 - forex
 - money
 - trading
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Trading forex (foreign exchange) is highly risky. Due to the leverage available, with very little money down you can have big gains, but also big losses. In addition, there is financial friction, since you are paying fees in the form of the spread. Only highly sophisticated investors should trade forex -- and if you're not sure what you are, then you're probably not highly sophisticated. Whatever you do, don't trade more than you can lose -- because odds are, you will lose everything.
 
 ## Steps

@@ -1,17 +1,18 @@
 ---
-layout: post
 title: How to Check Mailbox Size of All Accounts in Zimbra
+date: 2011-05-09 00:00:00 Z
 categories:
 - zimbra
 tags:
 - mail
 - server
 - zimbra
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Open you VIM to write down below script and execute it.&nbsp;
 
 ```

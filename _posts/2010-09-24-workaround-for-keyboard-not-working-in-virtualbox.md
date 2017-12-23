@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Workaround For Keyboard Not Working in Virtualbox
-categories: []
+date: 2010-09-24 00:00:00 Z
+published: false
 tags:
 - guest
 - keyboard
@@ -10,10 +10,11 @@ tags:
 - ubuntu
 - virtualbox
 - xp
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 sudo apt-get install scim-bridge-client-qt
 

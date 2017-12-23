@@ -1,6 +1,6 @@
 ---
-layout: post
 title: jQuery UI Released
+date: 2009-01-05 00:00:00 Z
 categories:
 - ajax
 tags:
@@ -8,11 +8,12 @@ tags:
 - framework
 - jquery
 - ui
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 John Resig has announce the release of a brand new JS library: jQuery UI 1.0.
 
 jQuery UI is a set of themable widgets and interactions, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications. The core of the library revolves around different mouse interactions, namely drag and dropping, sorting, selecting, and resizing.

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Delphi Hotfixs Collection For 2008
+date: 2009-01-04 00:00:00 Z
 categories:
 - delphi
 - software
@@ -9,11 +9,12 @@ tags:
 - delphi
 - files
 - hotfix
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 April 08 Hotfix for CodeGear RAD Studio 2007 (2008/04/18)
 
 > [radstudio2007apr08hotfix.exe](ftp://ftpd.codegear.com/download/radstudio2007/hotfix/radstudio2007apr08hotfix.exe)

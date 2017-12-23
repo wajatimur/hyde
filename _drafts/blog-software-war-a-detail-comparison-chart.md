@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 'Blog Software War : A Detail  Comparison Chart'
+date: 2009-01-16 00:00:00 Z
 categories:
 - web applications
 tags:
@@ -13,11 +13,12 @@ tags:
 - software
 - tools
 - wordpress
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 Are you using the right blogging tool, now its time to evaluate the monster of major blog software. Its your call. ( Please email to us on any correction&nbsp; )
 
 | Functionality | [Blogger](http://blogger.com) | [WordPress](http://wordpress.org) | [Movable Type](http://www.movabletype.org/) | [Expression Engine](http://expressionengine.com/) |

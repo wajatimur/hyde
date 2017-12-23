@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Zimbra Administration Tips Round-Up
+date: 2011-05-10 00:00:00 Z
 categories:
 - zimbra
 tags:
@@ -8,11 +8,12 @@ tags:
 - cli
 - linux
 - zimbra
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Import Tarred Mailbox using following command line;
 
 ```

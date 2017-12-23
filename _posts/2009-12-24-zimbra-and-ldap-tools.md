@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Zimbra And LDAP Tools
+date: 2009-12-24 00:00:00 Z
+published: false
 categories:
 - linux
 tags:
@@ -8,11 +9,12 @@ tags:
 - ldapsearch
 - tools
 - zimbra
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 Get Zimbra LDAP root password :
 
 > zmlocalconfig -s zimbra\_ldap\_password

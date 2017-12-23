@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Get The Latest Git Tag in Repository
+date: 2014-06-21 00:00:00 Z
 categories:
 - scm
 tags:
@@ -9,11 +9,12 @@ tags:
 - recent
 - single
 - tag
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 The command will return the most recent single tag in git repository.
 
 ```

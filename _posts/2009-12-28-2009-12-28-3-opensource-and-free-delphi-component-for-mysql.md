@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 3 Opensource and Free Delphi Component for MySql
+date: 2009-12-28 00:00:00 Z
 categories:
 - delphi
 tags:
@@ -9,12 +9,13 @@ tags:
 - delphi
 - mysql
 - vcl
+layout: post
 status: publish
 type: post
-published: true
 meta:
   structured_content: '{"oembed":{},"overlay":true}'
 ---
+
 A compilation of open-source and totally free Delphi component to access MySql database. All component are native and not needed extra driver or add-ins such as BDE or ODBC to run. Compare to VB or Visual C++, Delphi are still lack of database components available in the market.
 
 [1. Zeos Library](http://zeoslib.sourceforge.net/) Components for fast access to MySql, PostgreSql, MicrosoftSQL, Oracle and Interbase SQL servers without use add-ons, such as BDE / ODBC / ADO. Besides, the components - sources of data are compatible with standard TDataset and have a number of additional features. Open Source.

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Zimbra with Multiple Domains on Single Server
+date: 2009-08-22 00:00:00 Z
 categories:
 - devop
 tags:
@@ -12,11 +12,12 @@ tags:
 - email
 - mail
 - mta
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Zimbra mail server can handle multiple domain using it aliasing feature. To add a new domain alias we can use the following Zimbra command line provisioning tool.
 
 ```

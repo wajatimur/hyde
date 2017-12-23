@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Laravel ODBC Driver Package
+date: 2014-05-28 00:00:00 Z
 categories:
 - php
 - web applications
@@ -10,11 +10,12 @@ tags:
 - odbc
 - package
 - php
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 I have release an optimize ODBC library package for Laravel 4.1+ which can be install easily through composer by adding below line in your existing composer.json file
 
 ```

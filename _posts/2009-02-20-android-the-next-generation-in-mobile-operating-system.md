@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Android - The Next Generation in Mobile Operating System
+date: 2009-02-20 00:00:00 Z
+published: false
 categories:
 - gadget
 tags:
@@ -9,11 +10,12 @@ tags:
 - mobile
 - operating system
 - os
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 Android is a software stack for mobile devices that includes an operating system, middleware and key applications. This beta version of the [Android SDK](http://code.google.com/android/download.html) provides the tools and APIs necessary to begin developing applications on the Android platform using the Java programming language.
 
 ## Features

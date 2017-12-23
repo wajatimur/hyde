@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Laravel Config Package Override in Workbench
+date: 2014-05-26 00:00:00 Z
 categories:
 - php
 tags:
@@ -11,11 +11,12 @@ tags:
 - package namespace
 - php
 - workbench
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 This example show how to add config override of any package in others package or workbench. You have to put this code in your register method in you service provider.
 
 ```

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Perl CPAN Shell Configuration on Solaris
+date: 2012-01-15 00:00:00 Z
 categories:
 - solaris
 tags:
@@ -12,12 +12,13 @@ tags:
 - module
 - perl
 - solaris
+layout: post
 status: publish
 type: post
-published: true
 meta:
   structured_content: '{"oembed":{},"overlay":true}'
 ---
+
 You might be encounter problem installing per module as below.
 
 ```

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Regex For Date Format of d MM, YYYY
+date: 2014-05-08 00:00:00 Z
 categories:
 - coding
 tags:
@@ -11,11 +11,12 @@ tags:
 - look-ahead
 - regular expression
 - preceegin token
+layout: post
 status: publish
 type: post
-published: true
 meta: {}
 ---
+
 Below regex will match date format of 4 March, 1981 or 4 march, 1981. Click [here](http://regexr.com/38qek) to try the example.
 
 ```

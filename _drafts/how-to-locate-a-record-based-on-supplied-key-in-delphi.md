@@ -1,6 +1,6 @@
 ---
-layout: post
 title: How to Locate a Record Based on Supplied Key in Delphi
+date: 2009-02-03 00:00:00 Z
 categories:
 - delphi
 tags:
@@ -11,11 +11,12 @@ tags:
 - mysql
 - query
 - table
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
 ```
 fieldList := 'userid;firstname;surname;';valueList := VarArrayOf([Edit1.Text,Edit2.Text,Edit3.Text]);
 Query1.Locate(fieldList,valueList,[loCaseInsensitive,loPartialKey]);

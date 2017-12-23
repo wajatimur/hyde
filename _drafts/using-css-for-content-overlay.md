@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Using CSS For Content Overlay
+date: 2009-01-16 00:00:00 Z
 categories:
 - css
 tags:
@@ -9,11 +9,12 @@ tags:
 - tips
 - trick
 - web
+layout: post
 status: pending
 type: post
-published: false
 meta: {}
 ---
+
  ![CSS Edit Logo](http://standalonex.com/wp-content/uploads/2009/01/csseditlogo1.png "CSS Edit Logo")
 ## CSS Design Situation
 
