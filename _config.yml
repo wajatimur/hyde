@@ -10,7 +10,7 @@ relative_permalinks: false
 title:            SAC
 tagline:          'StandAloneComplex'
 description:      'Visible Non Abstract'
-url:              http://wajatimur.github.io
+url:              https://wajatimur.github.io
 baseurl:          /
 
 author:
