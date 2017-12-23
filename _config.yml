@@ -11,7 +11,7 @@ title:            SAC
 tagline:          'StandAloneComplex'
 description:      'Visible Non Abstract'
 url:              http://wajatimur.github.io
-baseurl:          /
+baseurl:          ./
 
 author:
   name:           'Azri Jamil'
