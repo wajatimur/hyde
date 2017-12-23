@@ -1,0 +1,27 @@
+---
+layout: post
+title: Zimbra And LDAP Tools
+categories:
+- linux
+tags:
+- ldap
+- ldapsearch
+- tools
+- zimbra
+status: pending
+type: post
+published: false
+meta: {}
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Get Zimbra LDAP root password :
+</p>
+<blockquote>zmlocalconfig -s zimbra_ldap_password</blockquote>
+<p>Change Zimbra LDAP root password :</p>
+<blockquote><p>zmldappasswd -r newpasss</p></blockquote>
+<p>LDAP Who Am I (Using simple authentication) :</p>
+<blockquote><p>ldapwhoami -xW</p></blockquote>
+<p>LDAP search (Using simple authentication) :</p>
+<blockquote><p>ldapsearch -x</p></blockquote>
+</body></html>

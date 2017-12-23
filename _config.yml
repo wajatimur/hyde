@@ -7,7 +7,7 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            Hyde
+title:            SAC
 tagline:          'StandAloneComplex'
 description:      'Visible Non Abstract'
 url:              http://wajatimur.github.io
@@ -25,7 +25,7 @@ version:          3.0.0
 github:
   repo:           https://github.com/wajatimur/wajatimur.github.io
 
-gems:   
+plugins:   
   - jekyll-paginate   
   - redcarpet   
   - jekyll-gist   

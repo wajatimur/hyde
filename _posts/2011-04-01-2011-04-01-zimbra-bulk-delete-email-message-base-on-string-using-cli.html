@@ -1,0 +1,22 @@
+---
+layout: post
+title: Zimbra Bulk Delete Email Message Base on String Using CLI
+categories:
+- linux
+tags:
+- mail
+- mailbox
+- message
+- zimbra
+status: publish
+type: post
+published: true
+meta: {}
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Generate file list of message to be delete.</p>
+<pre class="source-code">zmmailbox -z -m admin@mdkl.gov.my s -l 1000 -t message "in:inbox content:root@mdkl" | awk '{ if(NR &gt; 4){print}}' | cut -c7- | awk '{print $1","}' | tr -d '\n' &gt; /tmp/delmessg</pre>
+<p>Delete message from list file :</p>
+<pre class="source-code">/tmp/todel # zmmailbox -z -m admin@mdkl.gov.my dm `cat /tmp/todel`</pre>
+</body></html>

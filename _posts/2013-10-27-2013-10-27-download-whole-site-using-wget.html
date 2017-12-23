@@ -1,0 +1,32 @@
+---
+layout: post
+title: Download Whole Site Using WGET
+categories:
+- linux
+tags:
+- cli
+- cmd
+- command line
+- download
+- linux
+- site
+- tool
+- website
+- wget
+- recursive
+- crawler
+status: publish
+type: post
+published: true
+meta: {}
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>The WGet is a C base program to retrieve a web contents where it popularly used on OS platform such as Linux and others. It's part of GNU and distributed under GNU General Public License. It has a very robust feature including recursive web page download like a crawler. By using a proper program arguments we can download a whole site by using the following command.</p>
+<pre class="source-code">wget -E -H -k -K -p http://the.site.com</pre>
+<p>The <code>-E</code> arguments to tell te program that it supposed to save HTML and CSS document using proper extension. Where <code>-H</code> to makesure that all file were download even it were hosted on foreign host or domain. </p>
+
+<p>The flag <code>-k -K</code> will convert all the link in HTML to locally downloaded file. The <code>-p</code> will download all the requisite file including images and others to makesure the page is properly working.</p>
+
+<p><a href="/blog/b/download-whole-site-using-wget-2">Recent Update!</a></p>
+</body></html>

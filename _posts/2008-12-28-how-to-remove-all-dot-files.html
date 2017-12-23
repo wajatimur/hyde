@@ -1,0 +1,22 @@
+---
+layout: post
+title: How to remove all (dot) files in linux
+categories:
+- linux
+tags:
+- command
+- files
+- linux
+- delete
+- remove files
+status: publish
+type: post
+published: true
+meta:
+  _thumbnail_id: '39'
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>This ommand will remove all the dot files without removing top level directory. This command tested on Centos 5 and usually applicable to all Linux distros.</p>
+<pre><code class="lang-bash">rm -rf .[^.]* &amp;&amp; rm -rf ..?*</code></pre>
+</body></html>

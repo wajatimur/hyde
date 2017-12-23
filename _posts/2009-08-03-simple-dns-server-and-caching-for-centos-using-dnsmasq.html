@@ -1,0 +1,36 @@
+---
+layout: post
+title: Simple DNS Server and Caching for Centos Using dnsmasq
+categories:
+- linux
+tags:
+- dnsmasq
+- dns
+- linux
+- centos
+- cache
+- dhcp
+- forwarder
+- local
+status: publish
+type: post
+published: true
+meta: {}
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p><em>dnsmasq</em> is a very light DNS forwarder and capable of serving as DHCP server. It's also can be configure as a simple DNS server with a caching capability.</p>
+<p>On Centos distro, the <em>dnsmasq</em> package can be install using following command, this step is compulsary.</p>
+<pre><code class="lang-bash">yum install dnsmasq</code></pre>
+<p>After successfully installd the package, we need to edit the Centos DNS resolution file in <code>/etc/resolve.conf</code> using your favorite editor.  Make sure you have the following line.</p>
+<pre><code class="lang-bash">nameserver 127.0.0.1 
+nameserver 8.8.8.8</code></pre>
+<p>The first line must be pointing to local IP address, the second line is acting as backup if no local DNS server it will forward the DNS packet to appropriate public DNS server. Now let's start the dnsmasq sevice.</p>
+<pre><code class="lang-bash">/etc/init.d/dnsmasq start</code></pre>
+<p>Edit the configuration file in <code>/etc/dnsmasq.conf</code> and makesure following setting is in there. </p>
+<pre><code class="lang-bash">listen-address=127.0.0.1
+port=53
+domain-needed
+bogus-priv
+cache-size=1000</code></pre>
+</body></html>

@@ -1,0 +1,32 @@
+---
+layout: post
+title: Perl CPAN Shell Configuration on Solaris
+categories:
+- solaris
+tags:
+- cpan
+- gcc
+- install
+- make
+- makeinstall
+- module
+- perl
+- solaris
+status: publish
+type: post
+published: true
+meta:
+  structured_content: '{"oembed":{},"overlay":true}'
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>You might be encounter problem installing per module as below.</p>
+<pre class="source-code">cc: unrecognized option `-KPIC' cc: language ildoff not recognized cc: ReadKey.c: linker input file unused because linking not done</pre>
+<pre class="source-code">/usr/perl5/5.8.4/lib/sun4-solaris-64int/Config.pm</pre>
+<pre class="source-code">optimize='-O3' cccdlflags=' '</pre>
+<p>If you have below error while compiling.</p>
+<pre class="source-code">gcc: language arch=v8 not recognized</pre>
+<p id="yui_3_17_2_3_1457241662705_11000">Remove the following option founded in Config.pm file, usually there is 2 location.</p>
+<pre class="source-code">-xarch=v8</pre>
+<p><a href="http://gcc.gnu.org/ml/gcc/1999-08n/msg01022.html">GCC on Solaris</a></p>
+</body></html>

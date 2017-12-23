@@ -1,0 +1,25 @@
+---
+layout: post
+title: Getting Value Inside Bracket Using preg_match Function
+categories:
+- coding
+- php
+tags:
+- bracket
+- preg_match
+- regex
+status: publish
+type: post
+published: true
+meta: {}
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>First we need to compose and declare some pattern.</p>
+<pre class="source-code">$pattern = "/(\\(\\')(\\s*.*)(\\'\\))/";</pre>
+<p id="yui_3_17_2_1_1448768311330_52176">Then using `preg_replace` function we can get the value inside bracket on array return. Below is the full code example.</p>
+<pre class="source-code">$pattern = "/(\\(\\')(\\s*.*)(\\'\\))/"; 
+$value = "foo('bar')";
+preg_match($pattern, $value, $matches); 
+$result = $matches[2];</pre>
+</body></html>

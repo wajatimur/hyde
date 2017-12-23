@@ -1,0 +1,31 @@
+---
+layout: post
+title: Usefull Centos Command Line for Die Hard System Administrator
+categories:
+- linux
+tags:
+- admin
+- centos
+- linux
+- power
+- system
+status: publish
+type: post
+published: true
+meta: {}
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Find disk usage by partition in a human readable format.</p>
+<pre><code class="lang-bash">df -h</code></pre>
+<p>Find the top 100 space eating monster file/dir under a directory.</p>
+<pre><code class="lang-bash">du -a [dir] | sort -n | tail -100</code></pre>
+<p>Find out what files a logged in user has opened (ignoring libs, devices, sockets, pipes) </p>
+<pre><code class="lang-bash">lsof | grep [username] | egrep -v '(lib|/dev|pipe)'</code></pre>
+<p>Find which process is connected to what port and which remote host.</p>
+<pre><code class="lang-bash">netstat -pat</code></pre>
+<p>Find the NIC speed.</p>
+<pre><code class="lang-bash">mii-tool</code></pre>
+<p>Move all files with specific pattern to a sub-directory which might already have files with same pattern ..</p>
+<pre><code class="lang-bash">find . -maxdepth 1 -name "*2008*.txt" -exec mv {} 2008 \;</code></pre>
+</body></html>

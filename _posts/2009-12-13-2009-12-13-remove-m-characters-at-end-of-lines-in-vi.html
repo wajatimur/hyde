@@ -1,0 +1,22 @@
+---
+layout: post
+title: Remove ^M Characters At End Of Lines In vi
+categories:
+- linux
+tags:
+- control
+- linux
+- vi
+- "^M"
+status: publish
+type: post
+published: true
+meta:
+  structured_content: '{"oembed":{},"overlay":true}'
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Sometime when converting text file from Windows to Linux will introduce unintended <code>^M</code> character for each of line.</p>
+<pre class="source-code">:%s/^V^M//g </pre>
+<p>Tip: Pressing V and then M without releasing CTRL key.</p>
+</body></html>

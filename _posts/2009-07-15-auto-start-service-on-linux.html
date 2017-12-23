@@ -1,0 +1,27 @@
+---
+layout: post
+title: Auto Start Service on Linux
+categories:
+- linux
+tags:
+- auto
+- linux
+- service
+- redhat
+- debian
+- services
+status: publish
+type: post
+published: true
+meta: {}
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Redhat base distro for auto service start-up.</p>
+<pre><code class="lang-bash">chkconfig httpd add 
+chkconfig httpd off 
+chkconfig httpd --del</code></pre>
+<p>Debian base distro for auto service start-up. </p>
+<pre><code class="lang-bash">update-rc.d apache2 defaults 
+update-rc.d -f apache2 remove</code></pre>
+</body></html>

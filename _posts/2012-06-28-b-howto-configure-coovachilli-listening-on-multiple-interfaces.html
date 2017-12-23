@@ -1,0 +1,41 @@
+---
+layout: post
+title: Howto Configure CoovaChilli Listening On Multiple Interfaces
+categories:
+- linux
+tags:
+- coovachilli
+- network
+- vlan
+- wireless
+- wifi
+- linux
+status: publish
+type: post
+published: true
+meta:
+  structured_content: '{"oembed":{},"overlay":true}'
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Creat a VLAN interface using <code>ifcfg-vlan</code> filename with following content. The value of <code>IPADDR</code> and <code>NETWORK</code> must be reflect your current VLAN setup.</p>
+<pre class="source-code">DEVICE=vlan 
+IPADDR=192.168.100.1 
+NETWORK=192.168.100.0 
+NETMASK=255.255.255.0 
+USERCTL=no 
+BOOTPROTO=none 
+ONBOOT=yes
+</pre>
+<p>Edit the physical ethernet file, the <code>eth0</code> were use as example and this value must reflect your current setting accordingly.</p>
+<pre class="source-code">DEVICE=eth0
+USERCTL=no
+ONBOOT=yes 
+MASTER=vlan 
+SLAVE=yes 
+BOOTPROTO=none</pre>
+<p>Following line must be add to <code>modprobe.conf</code> file to enable the VLAN device probing by the Linux OS.</p>
+<pre class="source-code">alias vlan bonding options vlan mode=3 miimon=100</pre>
+<p>Change to below value in Chilli config file to fully enable the VLAN networking.</p>
+<pre class="source-code">HS_LANIF=vlan</pre>
+</body></html>

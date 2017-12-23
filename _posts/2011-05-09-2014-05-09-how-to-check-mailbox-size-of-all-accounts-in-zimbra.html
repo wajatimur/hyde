@@ -1,0 +1,23 @@
+---
+layout: post
+title: How to Check Mailbox Size of All Accounts in Zimbra
+categories:
+- zimbra
+tags:
+- mail
+- server
+- zimbra
+status: publish
+type: post
+published: true
+meta: {}
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Open you VIM to write down below script and execute it. </p>
+<pre class="source-code">#!/bin/bash 
+all_account=`zmprov gaa`
+for account in ${all_account} do mb_size=`zmmailbox -z -m ${account} gms`
+echo "Mailbox size of ${account} = ${mb_size}"
+done</pre>
+</body></html>

@@ -1,0 +1,26 @@
+---
+layout: post
+title: Zimbra Administration Tips Round-Up
+categories:
+- zimbra
+tags:
+- admin
+- cli
+- linux
+- zimbra
+status: publish
+type: post
+published: true
+meta: {}
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Import Tarred Mailbox using following command line;</p>
+<pre class="source-code">zmmailbox -z -m user@domain.com pru "//?fmt=tgz&amp;resolve=reset" /tmp/filename.tgz or curl -k -u admin:PASSWORD --data-binary @/path/to/USER-account.tgz "https://MAILSTORE-FQDN:7071/service/home/USER@DOMAIN/?fmt=tgz&amp;resolve=skip"</pre>
+<p>Export (Archive) mailbox into Tarred;</p>
+<pre class="source-code">zmmailbox -z -m getRestURL "//?fmt=tgz" &gt; /tmp/.tar.gz</pre>
+<p>Put Zimbra to maintenance mode : # zmprov md mydomain.com zimbraDomainStatus maintenance to reactivate : zmprov md mydomain.com zimbraDomainStatus active to get status; </p>
+<pre class="source-code">zmprov gd mydomain.com | grep -i zimbraDomainStatus</pre>
+<p>Empty mailbox;</p>
+<pre class="source-code">zmmailbox -z -m ef /Inbox</pre>
+</body></html>
