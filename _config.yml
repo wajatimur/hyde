@@ -24,7 +24,7 @@ paginate_path:    "/:num/"
 version:          3.0.0
 
 github:
-  repo:           https://github.com/wajatimur/wajatimur.github.io
+  repo:           https://github.com/wajatimur
 
 plugins:   
   - jekyll-paginate   
