@@ -11,13 +11,14 @@ title:            SAC
 tagline:          'StandAloneComplex'
 description:      'Visible Non Abstract'
 url:              http://wajatimur.github.io
-baseurl:          ./
+baseurl:          /
 
 author:
   name:           'Azri Jamil'
   url:            https://twitter.com/azrijamil
 
 paginate:         5
+paginate_path:    "/:num/"
 
 # Custom vars
 version:          3.0.0
