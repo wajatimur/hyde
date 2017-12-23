@@ -7,4 +7,6 @@ group :jekyll_plugins do
     gem 'jekyll-gist' 
     gem 'pygments.rb'
     gem 'wdm'
+    gem 'tzinfo'
+    gem 'tzinfo-data'
 end

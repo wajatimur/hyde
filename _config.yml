@@ -30,3 +30,4 @@ plugins:
 - jekyll-gist
 - pygments.rb
 - wdm
+- tzinfo
